@@ -69,4 +69,9 @@ body h1#header
     {
         flex-direction: column;
     }
+    .clock .time span
+    {
+        position: relative;
+        margin-top: 30px;
+    }
 }
