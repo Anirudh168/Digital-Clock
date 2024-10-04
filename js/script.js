@@ -17,7 +17,8 @@ function updateTime()
     ampm.innerHTML=ampm1;
     if(h>12)
     {
-        // h = h-12;
+        // h = h-12; for converting 24 hr to 12 hr format
+        // hour.innerHTML=h;
         ampm1 = "PM";
         ampm.innerHTML=ampm1;
     }
